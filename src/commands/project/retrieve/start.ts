@@ -141,11 +141,7 @@ export default class RetrieveMetadata extends SfCommand<RetrieveResultJson> {
     OrgConfigProperties.TARGET_ORG,
     OrgConfigProperties.ORG_API_VERSION
   );
-  public static envVariablesSection = toHelpSection(
-    'ENVIRONMENT VARIABLES',
-    EnvironmentVariable.SF_TARGET_ORG,
-    EnvironmentVariable.SF_USE_PROGRESS_BAR
-  );
+  public static envVariablesSection = toHelpSection('ENVIRONMENT VARIABLES', EnvironmentVariable.SF_TARGET_ORG);
 
   protected retrieveResult!: RetrieveResult;
   protected ms:

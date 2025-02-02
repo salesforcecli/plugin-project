@@ -166,11 +166,7 @@ export default class DeployMetadata extends SfCommand<DeployResultJson> {
     ConfigVars.ORG_METADATA_REST_DEPLOY
   );
 
-  public static envVariablesSection = toHelpSection(
-    'ENVIRONMENT VARIABLES',
-    EnvironmentVariable.SF_TARGET_ORG,
-    EnvironmentVariable.SF_USE_PROGRESS_BAR
-  );
+  public static envVariablesSection = toHelpSection('ENVIRONMENT VARIABLES', EnvironmentVariable.SF_TARGET_ORG);
 
   public static errorCodes = toHelpSection('ERROR CODES', DEPLOY_STATUS_CODES_DESCRIPTIONS);
 
