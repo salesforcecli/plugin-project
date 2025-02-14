@@ -1322,10 +1322,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@jsforce/jsforce-node@^3.6.1", "@jsforce/jsforce-node@^3.6.3":
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/@jsforce/jsforce-node/-/jsforce-node-3.6.3.tgz#a5c984b6deffac01ddabc3f4b48374408c5cd194"
-  integrity sha512-sNUeBzfUv57uH0AiYuAOO8yjBP7lNY33mWybrjvBud8gMFVWozY6UAWU1DUk/dpqZ0+FK3iqB++nOQRczj1nSg==
+"@jsforce/jsforce-node@^3.6.1", "@jsforce/jsforce-node@^3.6.3", "@jsforce/jsforce-node@^3.6.4":
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/@jsforce/jsforce-node/-/jsforce-node-3.6.4.tgz#c1055e2064a501633e9d86f6f2fe1b287c6ce9ce"
+  integrity sha512-9IZL5lFDE1nUnPYnzOleH0xaEE3Sc9sQcLKwx1LQeSyAI/KvnxySadlIpZAdTrJap4hDRFQkXiEFiJ3oFwj/zg==
   dependencies:
     "@sindresorhus/is" "^4"
     base64url "^3.0.1"
@@ -1595,13 +1595,13 @@
     debug "^4.4.0"
     handlebars "^4.7.8"
 
-"@salesforce/plugin-info@^3.4.37":
-  version "3.4.37"
-  resolved "https://registry.yarnpkg.com/@salesforce/plugin-info/-/plugin-info-3.4.37.tgz#6ce5a2b09d892484983d37feb964ccd35227a9e4"
-  integrity sha512-ak9owqn5Q1PP+HL9JXZLYJo7ufTOQa1PoYag5HEq5l9oDgWvPbUKlMoEm02dVIzKqoULWvYhoy1CpHq4CQflDg==
+"@salesforce/plugin-info@^3.4.39":
+  version "3.4.39"
+  resolved "https://registry.yarnpkg.com/@salesforce/plugin-info/-/plugin-info-3.4.39.tgz#6fa437c97f37eae1fe087a6265178a9ef1a612e6"
+  integrity sha512-+SSlfpHB9UXpWMIjHSYrVPSr2mnE2ag5KJzuPfuq2gBtB4+bzFd54/vanybxPf1XfPUW1CCXqAaGY2ZqNt2SYg==
   dependencies:
     "@inquirer/input" "^2.3.0"
-    "@jsforce/jsforce-node" "^3.6.3"
+    "@jsforce/jsforce-node" "^3.6.4"
     "@oclif/core" "^4"
     "@salesforce/core" "^8.8.0"
     "@salesforce/kit" "^3.2.3"
@@ -1611,7 +1611,7 @@
     marked-terminal "^4.2.0"
     open "^10.1.0"
     proxy-agent "^6.5.0"
-    semver "^7.7.0"
+    semver "^7.7.1"
 
 "@salesforce/prettier-config@^0.0.3":
   version "0.0.3"
@@ -7400,7 +7400,7 @@ semver@^6.0.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.0:
+semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1:
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
   integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
